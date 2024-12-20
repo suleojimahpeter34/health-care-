@@ -9,6 +9,9 @@ body{
     background-color: white;
     font-family: arial;
 }
+main{
+    padding: 20px 150px;
+}
 .header-container{
     display: flex; 
     justify-content: space-between;
@@ -41,4 +44,38 @@ body{
     color: black ;
     font-weight: bolder;
     font-size: 16px;
+}
+.banner-container{
+    display: flex;
+    gap: 8gi0px;
+    align-items: center;
+    justify-content: center;
+}
+.left-side{
+    width: 440px;
+}
+.banner-container .left-side h2{
+    font-size: 2.5rem;
+    font-family: arial;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.banner-container .left-side p{
+    color: gray;
+    font-size: 17px;
+    padding-bottom: 30px;
+    font-family: arial;
+}
+.banner-container .left-side button{
+    padding: 15px 32px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: #458ff6;
+}
+.banner-container .right-side img{
+    width: 530px;
+    height: 530px;
 }
