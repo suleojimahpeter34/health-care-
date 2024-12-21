@@ -79,3 +79,30 @@ main{
     width: 530px;
     height: 530px;
 }
+.service-section{
+
+}
+.service-section .top-services p{
+    color: gray;
+    text-align: center;
+}
+.service-section .top-services h3{
+    padding-top: 100px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.first-line{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    background-color: rgb(234, 249, 255);
+    padding: 20px 110px;
+
+}
+.first-line .first-one{
+    width: 500px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 30px 20px;
+    background-color: white;
+}
