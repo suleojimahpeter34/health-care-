@@ -106,3 +106,65 @@ main{
     padding: 30px 20px;
     background-color: white;
 }
+.btn-service button{
+    padding: 14px 37px;
+    color: #458ff6;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid #458ff6;
+}
+.btn-service{
+    padding: 70px 0px;
+    text-align: center;
+}
+.more-services-container{
+    padding-top: 140px;
+    padding-bottom: 70px;
+align-items: center;
+    display: flex;
+}
+.more-services-container .left-more-services{
+    padding-right: 70px;
+}
+.more-services-container .right-more-services{
+    width: 40%;
+}
+.btn-more-service button{
+    padding: 14px 37px;
+    color: #458ff6;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid #458ff6;
+}
+.right-more-services h1{
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right-more-services h2{
+    font-size: 1.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 26px;
+}
+.more-services-black-line{
+    height: 2px;
+    margin-bottom: 30px;
+    width: 50px;
+    background-color: rgb(37, 37, 37);
+}
+.right-more-services .f-p{
+    color: gray;
+    margin-bottom: 8px;
+    font-size: 17px;
+
+}
+.l-p{
+    margin-bottom: 50px;
+    font-size: 17px;
+    color: gray;
+
+}
