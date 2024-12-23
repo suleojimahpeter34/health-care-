@@ -89,6 +89,7 @@ main{
     font-size: 1.8rem;
     text-align: center;
 }
+
 .first-line{
     display: flex;
     width: 100%;
@@ -165,4 +166,53 @@ align-items: center;
     font-size: 17px;
     color: gray;
 
+}
+.download-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;   
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.right-download img{
+    width: 720px;
+    padding-left: 70px;
+}
+.f-p{
+    color: gray;
+    margin-bottom: 8px;
+    font-size: 19px;
+
+
+}
+.l-p{
+    font-size: 18px;
+   
+}
+.left-download h1{
+    font-size: 2.2rem;
+}
+.left-download .download-black-line{
+    height: 2px;
+    width: 70px;
+    margin: 40px 0px;
+    background-color: black;
+}
+.btn-download{
+    gap: 5px;
+}
+.btn-download button{
+    padding: 7px 37px;
+    color: #458ff6;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid #458ff6;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
